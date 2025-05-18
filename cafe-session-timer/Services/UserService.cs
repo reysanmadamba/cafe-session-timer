@@ -5,6 +5,8 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Driver;
+using MongoDB.Driver.Core.Configuration;
+using cafe_session_timer.Model;
 
 namespace cafe_session_timer.Services
 {
@@ -12,7 +14,7 @@ namespace cafe_session_timer.Services
     {
         private readonly IMongoCollection<User> _users;
 
-        public UserService(string connectioString, string databaseName)
+        public UserService(string connectionString, string databaseName)
         {
             var client = new MongoClient(connectionString);
             var database = client.GetDatabase(databaseName);
@@ -34,9 +36,10 @@ namespace cafe_session_timer.Services
             await _users.InsertOneAsync(user);
         }
 
-        public async Task UpdateUserAsync(UserService user)
+        public async Task UpdateUserAsync(User user)
         {
-            await _users.ReplaceOneAsync(u => u.Id == user.id, user);
+            await _users.ReplaceOneAsync(u => u.Id == user.Id, user);
+        }
 
         public  async Task DeleteUserAsync(string id)
             {
@@ -44,4 +47,4 @@ namespace cafe_session_timer.Services
             }
         }
     }
-}
+
