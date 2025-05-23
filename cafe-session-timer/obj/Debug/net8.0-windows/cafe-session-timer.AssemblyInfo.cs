@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cafe-session-timer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+709a763bf4af8e84e2b5d5831c73f085a7d6af0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c73fa2cfacdf5acf3d8c7836e7e93066630cd02f")]
 [assembly: System.Reflection.AssemblyProductAttribute("cafe-session-timer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cafe-session-timer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\reysa\Documents\personal-project\cafe-session-timer-repo\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\
+C:\Users\reysa\Documents\personal-project\cafe-session-timer\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\
 cafe_session_timer
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\reysa\Documents\personal-project\cafe-session-timer-repo\cafe-session-timer\cafe-session-timer\App.xaml
-3-170519324
+C:\Users\reysa\Documents\personal-project\cafe-session-timer\cafe-session-timer\cafe-session-timer\App.xaml
+4152231787
 
-91428509345
+12-2133525835
 206-998237260
-LoginWindow.xaml;MainWindow.xaml;setDurationWindow.xaml;
+LoginWindow.xaml;MainWindow.xaml;RegisterUserWindow.xaml;setDurationWindow.xaml;
 
 False
 

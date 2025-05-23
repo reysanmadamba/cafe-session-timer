@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VIj3PId57cU=",
+  "dgSpecHash": "1d6MxFNIP1I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer-repo\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj",
+  "projectFilePath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reysa\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\reysa\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",

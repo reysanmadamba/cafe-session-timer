@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer-repo\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj": {}
+    "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer-repo\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj": {
+    "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer-repo\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj",
+        "projectUniqueName": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj",
         "projectName": "cafe-session-timer",
-        "projectPath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer-repo\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj",
+        "projectPath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer.csproj",
         "packagesPath": "C:\\Users\\reysa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer-repo\\cafe-session-timer\\cafe-session-timer\\obj\\",
+        "outputPath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

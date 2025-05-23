@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Bson;
+using MongoDB.Bson.IO;
 using MongoDB.Bson.Serialization.Attributes;
 
 
@@ -27,6 +28,9 @@ namespace cafe_session_timer.Model
 
         [BsonElement("isLocked")]
         public bool isLocked { get; set; }
+
+        [BsonElement("isLoggedIn")]
+        public bool isLoggedIn { get; set; }
 
     }
 }

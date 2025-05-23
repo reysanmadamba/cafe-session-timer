@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AdminDashboardWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="RegisterUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ResetPasswordWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="setDurationWindow.xaml.cs">
@@ -18,6 +24,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AdminDashboardWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -25,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegisterUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResetPasswordWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="setDurationWindow.xaml">

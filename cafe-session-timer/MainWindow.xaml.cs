@@ -9,6 +9,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using cafe_session_timer.Model;
+using cafe_session_timer.Services;
 
 namespace cafe_session_timer
 {
@@ -18,85 +20,124 @@ namespace cafe_session_timer
     public partial class MainWindow : Window
     {
 
-        private DispatcherTimer _timer;
-        private TimeSpan _time;
-        public MainWindow()
+        private DispatcherTimer _sessionTimer;
+        private TimeSpan _remainingTime;
+        private readonly UserService _userService;
+        private User _currentUser;
+        public MainWindow(User user, UserService userService)
         {
             InitializeComponent();
+            _userService = userService;
+            _currentUser = user;
 
-            StartBtn.Visibility = Visibility.Collapsed;
-            PauseBtn.Visibility = Visibility.Collapsed;     
-            ResetBtn.Visibility = Visibility.Collapsed;
+            InitializeTimer();
+            LoadUserTime();
 
-
-            _time = TimeSpan.FromMinutes(25);
-            TimerText.Text = _time.ToString(@"mm\:ss");
-
-            _timer = new DispatcherTimer();
-            _timer.Interval = TimeSpan.FromSeconds(1);
-            _timer.Tick += Timer_Tick;
+            StartSession();
         }
 
-        private void Timer_Tick(object sender, EventArgs e)
+        private void InitializeTimer()
         {
-            if (_time == TimeSpan.Zero)
+            _sessionTimer = new DispatcherTimer();
+            _sessionTimer.Interval = TimeSpan.FromSeconds(1);
+            _sessionTimer.Tick += SessionTimer_Tick;
+        }
+
+        private void LoadUserTime()
+        {
+            _remainingTime = TimeSpan.FromMinutes(_currentUser.TimeRemaining);
+            UpdateTimeDisplay();
+
+            if (_currentUser.TimeRemaining > 0)
             {
-                _timer.Stop();
-                MessageBox.Show("Time's up!", "Focus Timer");
-                ResetControls();
+                StartBtn.IsEnabled = true;
+                PauseBtn.IsEnabled = false;
             }
             else
             {
-                _time = _time.Add(TimeSpan.FromSeconds(-1));
-                TimerText.Text = _time.ToString(@"mm\:ss");
+                StartBtn.IsEnabled = false;
+                PauseBtn.IsEnabled = false;
+                MessageBox.Show("Your account has no remaining time. Please contact the admin to add time", "Out of Time");
             }
         }
 
-        private void ChangeDuration_Click(object sender, RoutedEventArgs e)
+        private void SessionTimer_Tick(object sender,EventArgs e)
         {
-            var dlg = new SetDurationWindow((int)_time.TotalMinutes)
+            if (_remainingTime <= TimeSpan.Zero)
             {
-                Owner = this
-            };
-            if (dlg.ShowDialog() == true)
-            {
-                _time = TimeSpan.FromMinutes(dlg.Minutes);
-                    TimerText.Text = _time.ToString(@"mm\:ss");
+                EndSession();
+                return;
+            }
 
-                StartBtn.Visibility = Visibility.Visible;
-                PauseBtn.Visibility = Visibility.Visible;
-                ResetBtn.Visibility = Visibility.Visible;
+            _remainingTime = _remainingTime.Subtract(TimeSpan.FromSeconds(1));
+            UpdateTimeDisplay();
+
+            if (_remainingTime.Seconds == 0)
+            {
+                _currentUser.TimeRemaining = (int)_remainingTime.TotalMinutes;
+                _userService.UpdateUserAsync(_currentUser);
             }
         }
 
-        private void StartBtn_Click(object sender, RoutedEventArgs e)
+        private void UpdateTimeDisplay()
         {
-            _timer.Start();
+            TimerText.Text = _remainingTime.ToString(@"hh\:mm\:ss");
+        }
+
+        private void StartSession()
+        {
+            if (_currentUser.TimeRemaining <= 0)
+                return;
+            _sessionTimer.Start();
             StartBtn.IsEnabled = false;
-            PauseBtn.IsEnabled = true;
-            ResetBtn.IsEnabled = true;
+            PauseBtn.IsEnabled = false;
+
+            _currentUser.isLoggedIn = true;
+            _userService.UpdateUserAsync(_currentUser);
         }
 
-        private void PauseBtn_Click(Object sender, RoutedEventArgs e)
+        private void PauseSession()
         {
-            _timer.Stop();
+            _sessionTimer.Stop();
             StartBtn.IsEnabled = true;
             PauseBtn.IsEnabled = false;
         }
 
-        private void ResetBtn_Click(object sender, RoutedEventArgs e)
+        private void EndSession()
         {
-            _timer.Stop();
-            _time = TimeSpan.FromMinutes(25);
-            TimerText.Text = _time.ToString(@"mm\:ss");
-            ResetControls();
+            _sessionTimer.Stop();
+            _currentUser.TimeRemaining = 0;
+            _currentUser.isLoggedIn = false;
+            _userService.UpdateUserAsync(_currentUser);
+
+            MessageBox.Show("Your session has ened. The system will now lock", "Session Ended");
+
+            Application.Current.Shutdown();
         }
 
-        private void ResetControls()
+        private void StartBtn_Click(object sender, RoutedEventArgs e) => StartSession();
+        private void PauseBtn_Click(object sender, RoutedEventArgs e) => PauseSession();
+        private void LogoutBtn_Click(object sender, RoutedEventArgs e)
         {
-            StartBtn.IsEnabled = true;
-            PauseBtn.IsEnabled = false;
-            ResetBtn.IsEnabled = false;
+            _sessionTimer.Stop();
+            _currentUser.isLoggedIn = false;
+            _userService.UpdateUserAsync(_currentUser);
+
+            var app = Application.Current;
+            app.Shutdown();
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+        }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            if (_currentUser != null)
+            {
+                _currentUser.isLoggedIn = false;
+                _userService.UpdateUserAsync(_currentUser);
+            }
+
+
+            base.OnClosed(e);
         }
 
 

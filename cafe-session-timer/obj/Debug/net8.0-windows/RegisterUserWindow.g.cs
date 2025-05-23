@@ -68,7 +68,7 @@ namespace cafe_session_timer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/cafe-session-timer;V1.0.0.0;component/registeruserwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/cafe-session-timer;component/registeruserwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RegisterUserWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

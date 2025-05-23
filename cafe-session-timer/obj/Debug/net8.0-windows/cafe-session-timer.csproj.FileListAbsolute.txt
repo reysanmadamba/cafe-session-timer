@@ -59,3 +59,5 @@ C:\Users\reysa\Documents\personal-project\cafe-session-timer-repo\cafe-session-t
 C:\Users\reysa\Documents\personal-project\cafe-session-timer-repo\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\cafe-session-timer.pdb
 C:\Users\reysa\Documents\personal-project\cafe-session-timer-repo\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\cafe-session-timer.genruntimeconfig.cache
 C:\Users\reysa\Documents\personal-project\cafe-session-timer-repo\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\ref\cafe-session-timer.dll
+C:\Users\reysa\Documents\personal-project\cafe-session-timer\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\RegisterUserWindow.baml
+C:\Users\reysa\Documents\personal-project\cafe-session-timer\cafe-session-timer\cafe-session-timer\obj\Debug\net8.0-windows\RegisterUserWindow.g.cs

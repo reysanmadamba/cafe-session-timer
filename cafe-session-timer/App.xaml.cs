@@ -2,6 +2,8 @@
 using System.Data;
 using System.Windows;
 using cafe_session_timer.Services;
+using cafe_session_timer.Model;
+using cafe_session_timer.ViewModels;
 
 namespace cafe_session_timer
 {
@@ -11,25 +13,39 @@ namespace cafe_session_timer
     public partial class App : Application
     {
         public static UserService UserService { get; private set; }
+        internal static AuthService AuthService { get; private set; }
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
 
-            var connString = ConfigurationManager.AppSettings["MongoConn"];
-            var dbName = ConfigurationManager.AppSettings["MongoDbName"];
+            var connectionString = ConfigurationManager.AppSettings["MongoConn"];
+            var databasebName = ConfigurationManager.AppSettings["MongoDbName"];
 
 
-            UserService = new UserService(connString, dbName);
+            UserService = new UserService(connectionString, databasebName);
+            AuthService = new AuthService(UserService);
 
-            var login = new LoginWindow();
-            if (login.ShowDialog() != true)
+            var loginWindow = new LoginWindow(AuthService);
+            if (loginWindow.ShowDialog() == true)
+            {
+              if (loginWindow.IsAdminLogIn)
+                {
+                    var adminVM = new AdminDashboardViewModel(UserService);
+                    var adminWindow = new AdminDashboardWindow(adminVM);
+
+                    adminWindow.Show();
+                }
+              else
+                {
+                    var mainWindow = new MainWindow(loginWindow.LoggedInUser, UserService);
+                    mainWindow.Show();
+                }
+            }
+            else
             {
                 Shutdown();
-                return;
             }
 
-            var main = new MainWindow();
-            main.Show();
         }
     }
 

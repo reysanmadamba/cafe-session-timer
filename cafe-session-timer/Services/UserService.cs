@@ -41,10 +41,31 @@ namespace cafe_session_timer.Services
             await _users.ReplaceOneAsync(u => u.Id == user.Id, user);
         }
 
-        public  async Task DeleteUserAsync(string id)
+        public async Task DeleteUserAsync(string id)
             {
                 await _users.DeleteOneAsync(u => u.Id == id);
             }
+
+        public async Task AddTimeToUserAsync(string userId, int minutesToAdd)
+        {
+            var update = Builders<User>.Update
+                .Inc(u => u.TimeRemaining, minutesToAdd);
+            await _users.UpdateOneAsync(u => u.Id == userId, update);
+        }
+
+        public async Task UpdateLoginStatusAsync(string userId, bool isLoggedIn)
+        {
+            var update = Builders<User>.Update
+                .Set(u => u.isLoggedIn, isLoggedIn);
+            await _users.UpdateOneAsync(u => u.Id == userId, update);
+        }
+
+        public async Task ToggleUserLockAsync(string userId, bool isLocked)
+        {
+            var update = Builders<User>.Update
+                .Set(u => isLocked, isLocked);
+            await _users.UpdateOneAsync(u => u.Id == userId, update);
+        }
         }
     }
 

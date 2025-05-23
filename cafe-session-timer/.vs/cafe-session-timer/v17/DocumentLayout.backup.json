@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\resetpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:resetpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\resetpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:resetpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\registeruserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:registeruserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\admindashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:admindashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\admindashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:admindashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\resetpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:resetpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,6 +35,14 @@
       "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:registeruserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|c:\\users\\reysa\\documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8244B4E2-52AA-495A-B816-7456F813594E}|cafe-session-timer.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,79 +66,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterUserWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\RegisterUserWindow.xaml",
-              "RelativeDocumentMoniker": "RegisterUserWindow.xaml",
-              "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\RegisterUserWindow.xaml",
-              "RelativeToolTip": "RegisterUserWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:01:36.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T15:59:27.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminDashboardWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\AdminDashboardWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AdminDashboardWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\AdminDashboardWindow.xaml.cs",
-              "RelativeToolTip": "AdminDashboardWindow.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:27:13.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminDashboardWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\AdminDashboardWindow.xaml",
-              "RelativeDocumentMoniker": "AdminDashboardWindow.xaml",
-              "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\AdminDashboardWindow.xaml",
-              "RelativeToolTip": "AdminDashboardWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T15:27:09.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:19:32.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ResetPasswordWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\ResetPasswordWindow.xaml.cs",
               "RelativeDocumentMoniker": "ResetPasswordWindow.xaml.cs",
               "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\ResetPasswordWindow.xaml.cs",
               "RelativeToolTip": "ResetPasswordWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwBcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T04:29:59.827Z",
               "EditorCaption": ""
@@ -177,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "setDurationWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\setDurationWindow.xaml.cs",
               "RelativeDocumentMoniker": "setDurationWindow.xaml.cs",
@@ -185,11 +103,12 @@
               "RelativeToolTip": "setDurationWindow.xaml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:10:04.149Z"
+              "WhenOpened": "2025-05-20T20:10:04.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "RegisterUserWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\RegisterUserWindow.xaml.cs",
               "RelativeDocumentMoniker": "RegisterUserWindow.xaml.cs",
@@ -197,24 +116,25 @@
               "RelativeToolTip": "RegisterUserWindow.xaml.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA8wCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:09:57.212Z"
+              "WhenOpened": "2025-05-20T20:09:57.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwGgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T20:09:50.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -222,24 +142,25 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-20T20:09:32.824Z"
+              "WhenOpened": "2025-05-20T20:09:32.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T20:09:15.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\Helpers\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Helpers\\RelayCommand.cs",
@@ -247,11 +168,12 @@
               "RelativeToolTip": "Helpers\\RelayCommand.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:09:03.998Z"
+              "WhenOpened": "2025-05-20T20:09:03.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "AdminDashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\ViewModels\\AdminDashboardViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\AdminDashboardViewModel.cs",
@@ -259,24 +181,25 @@
               "RelativeToolTip": "ViewModels\\AdminDashboardViewModel.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAUwIYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:06:50.623Z"
+              "WhenOpened": "2025-05-20T20:06:50.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
               "ToolTip": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\LoginWindow.xaml.cs",
               "RelativeToolTip": "LoginWindow.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswC4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAxwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T20:27:44.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "LoginWindow.xaml",
@@ -288,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
@@ -296,11 +219,12 @@
               "RelativeToolTip": "AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:27:34.43Z"
+              "WhenOpened": "2025-05-18T20:27:34.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -308,11 +232,12 @@
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAArwDsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:26:56.108Z"
+              "WhenOpened": "2025-05-18T20:26:56.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\reysa\\Documents\\personal-project\\cafe-session-timer\\cafe-session-timer\\cafe-session-timer\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -320,7 +245,8 @@
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:26:52.675Z"
+              "WhenOpened": "2025-05-18T20:26:52.675Z",
+              "EditorCaption": ""
             }
           ]
         }
